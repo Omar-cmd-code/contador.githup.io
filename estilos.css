@@ -1,0 +1,109 @@
+*{ 
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+ }
+
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    }
+
+.contador{
+    margin:0 170px;
+    padding-bottom: 100px;
+    }
+.titulo{
+    background: linear-gradient(45deg, #22db29, #924343);
+    padding: 50px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 8px 15px rgba(172, 34, 34, 0.2);
+    }
+.nombre{
+        background: linear-gradient(45deg, #22db29, #eb6f0b);
+        padding: 50px;
+        text-align: center;
+        border-radius: 15px;
+        margin: 50px auto;
+        width: 80%;
+        max-width: 800px;
+        box-shadow: 0 8px 15px rgba(172, 34, 34, 0.2);
+        }
+.text{
+    font-size: 85px;
+    margin-bottom: 10px;
+    }
+    h1 {
+        color: white;
+        font-size: 38px;
+        margin: 0;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+  /* Contenedor Flex para alinear los botones */
+.contenedor-botones {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 20px; /* Espacio entre los botones */
+    margin-top: 100px;
+}
+ /* Estilo del botón */
+ .incrementar {
+    background-color: #FF5722;  /* Color de fondo */
+    color: white;               /* Color del texto */
+    font-size: 24px;            /* Tamaño del texto */
+    padding: 15px 40px;         /* Espaciado interno */
+    border: none;               /* Sin bordes */
+    border-radius: 10px;        /* Bordes redondeados */
+    cursor: pointer;            /* Cambia el cursor a mano al pasar */
+    transition: background-color 0.3s, transform 0.2s; /* Animación suave */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+/* Efecto hover */
+.incrementar:hover {
+    background-color: #E64A19;  /* Cambia color al pasar el mouse */
+    transform: scale(1.1);      /* Aumenta ligeramente el tamaño */
+}
+ /* Estilo del botón */
+ .reset {
+    background-color: #FF5722;  /* Color de fondo */
+    color: white;               /* Color del texto */
+    font-size: 24px;            /* Tamaño del texto */
+    padding: 15px 40px;         /* Espaciado interno */
+    border: none;               /* Sin bordes */
+    border-radius: 10px;        /* Bordes redondeados */
+    cursor: pointer;            /* Cambia el cursor a mano al pasar */
+    transition: background-color 0.3s, transform 0.2s; /* Animación suave */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+/* Efecto hover */
+.reset:hover {
+    background-color: #E64A19;  /* Cambia color al pasar el mouse */
+    transform: scale(1.1);      /* Aumenta ligeramente el tamaño */
+}
+ /* Estilo del botón */
+ .disminuir {
+    background-color: #FF5722;  /* Color de fondo */
+    color: white;               /* Color del texto */
+    font-size: 24px;            /* Tamaño del texto */
+    padding: 15px 40px;         /* Espaciado interno */
+    border: none;               /* Sin bordes */
+    border-radius: 10px;        /* Bordes redondeados */
+    cursor: pointer;            /* Cambia el cursor a mano al pasar */
+    transition: background-color 0.3s, transform 0.2s; /* Animación suave */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+/* Efecto hover */
+.disminuir:hover {
+    background-color: #E64A19;  /* Cambia color al pasar el mouse */
+    transform: scale(1.1);      /* Aumenta ligeramente el tamaño */
+}
